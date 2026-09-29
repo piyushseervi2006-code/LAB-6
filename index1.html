@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101b2a" />
+  <meta name="description" content="A polished, responsive sample page styled with an external CSS file." />
+  <title>Aurora — A little more color</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Aurora home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Aurora</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content wrap">
+      <p class="eyebrow"><span class="eyebrow-line"></span> A fresh view of the web</p>
+      <h1>Make room for<br /><span>something beautiful.</span></h1>
+      <p class="hero-copy">A calm, colorful landing page built with simple HTML and an external stylesheet.</p>
+      <a class="button button-primary" href="#features">Explore the page <span aria-hidden="true">↘</span></a>
+    </div>
+    <div class="hero-caption wrap"><span>01 / 03</span><span>Find your own kind of bright</span></div>
+  </header>
+
+  <main class="wrap content">
+    <section class="intro panel" id="about" aria-labelledby="about-title">
+      <div class="section-kicker">A small introduction</div>
+      <div class="intro-copy">
+        <h2 id="about-title">A clear canvas for your ideas.</h2>
+        <p>This sample brings together a scenic background, warm text colors, and fine borders to create a page that feels polished without being difficult to customize.</p>
+      </div>
+      <span class="intro-number" aria-hidden="true">01</span>
+    </section>
+
+    <section class="features-section" id="features" aria-labelledby="features-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">The details</div>
+          <h2 id="features-title">Thoughtful by design.</h2>
+        </div>
+        <p>Simple building blocks, ready for your own content.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card panel">
+          <span class="feature-icon icon-violet" aria-hidden="true">◌</span>
+          <h3>Made to adapt</h3>
+          <p>Flexible layouts adjust smoothly from a small phone to a wide desktop screen.</p>
+          <span class="card-index">01</span>
+        </article>
+        <article class="feature-card panel">
+          <span class="feature-icon icon-teal" aria-hidden="true">⌁</span>
+          <h3>Easy to read</h3>
+          <p>Soft white text, generous spacing, and visible borders keep every section clear.</p>
+          <span class="card-index">02</span>
+        </article>
+        <article class="feature-card panel">
+          <span class="feature-icon icon-gold" aria-hidden="true">✳</span>
+          <h3>Easy to change</h3>
+          <p>Update the colors, background photo, and copy from two straightforward files.</p>
+          <span class="card-index">03</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact panel" id="contact" aria-labelledby="contact-title">
+      <div>
+        <div class="section-kicker">Your next step</div>
+        <h2 id="contact-title">Let’s make it yours.</h2>
+        <p>Swap in your own words, choose a favorite photograph, and make the page your own.</p>
+      </div>
+      <a class="button button-outline" href="#home">Back to top <span aria-hidden="true">↑</span></a>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">✦</span><span>Aurora</span></a>
+    <p>Designed with care <span aria-hidden="true">·</span> HTML + external CSS</p>
+  </footer>
+</body>
+</html>
